@@ -1,0 +1,113 @@
+1.Age values equal to 0 were treated as invalid because records existed with age = 0 
+and adult characteristics (e.g., divorced marital status). These values were converted 
+to missing and imputed using the median age.
+
+2.Age values which are less than 18 having adult characteristics (e.g., divorced marital status).
+These Values contain inconsistencies. Data quality checks revealed inconsistent records, 
+such as patients aged 9 marked as retired or married. These records were treated as data quality issues
+
+Data quality assessment identified unrealistic combinations (e.g., patients under 18 marked as married, 
+retired, or having children), suggesting that some features may be synthetically generated or contain inconsistencies
+
+3.Missing values OF 1500 in categorical variables such as education_level were imputed using the
+category "Unknown" to preserve records while explicitly indicating unavailable information.
+
+-------------------------------------------------------------------------------------------
+EDA - columns vs No_show
+1.age_no_sow: 
+ Age-group analysis revealed only minor differences in no-show rates across age categories. 
+ Patients aged 65-100 recorded the highest no-show rate (8.52%), followed by those aged 0-18 
+ (8.41%) and 50-65 (8.38%). Patients aged 35-50 exhibited the lowest no-show rate (8.04%). 
+ Overall, no-show rates ranged from 8.04% to 8.52%, suggesting that age group has a limited 
+ influence on appointment attendance.
+
+2. gender_no_show :
+ Gender appears to have little influence on appointment attendance.
+ Female patients recorded a no-show rate of 8.43%, compared to 8.08% for males and 
+ 8.74% for the 'Other' category. The differences between groups are small, 
+ suggesting that gender is not a strong predictor of no-show behavior. 
+
+3. city_no_show : 
+ City-wise analysis shows only minor variation in no-show 
+ rates across locations. Tilburg recorded the highest no-show rate at 8.82%, 
+ followed by Groningen (8.57%) and Almere (8.54%). Rotterdam had the lowest no-show 
+ rate at 8.01%, closely followed by Amsterdam (8.02%). Overall, no-show rates remained
+ within a narrow range of 8.01% to 8.82%, suggesting that city has a limited influence
+ on appointment attendance.
+
+4. neighborhood : 
+ Neighborhood-wise analysis reveals modest variation in no-show rates
+ across regions. Suburban areas recorded the highest no-show rate at 8.75%, followed by East
+ (8.41%), Central (8.38%), and Rural (8.38%). North exhibited the lowest no-show rate at 7.77%,
+ with West also showing a relatively low rate of 7.91%. Overall, 
+ no-show rates ranged from 7.77% to 8.75%, indicating that neighborhood may have a 
+ slight influence on appointment attendance, although the differences are not substantial.
+
+5. appointment_day: 
+ The no-show rate varied across days of the month, ranging 
+ from 6.90% to 9.42%. Day 18 recorded the highest no-show rate (9.42%), followed
+ by days 1 (9.38%) and 12 (9.21%). In contrast, day 21 had the lowest no-show rate (6.90%), 
+ followed by days 6 (6.97%) and 17 (7.08%). The variation of approximately 2.5 percentage
+ points suggests that the day of the month may have a moderate influence on appointment
+ attendance..
+
+6. waiting_days: 
+ Patients with longer waiting periods tend to have higher no-show rates.
+ The no-show rate rises from 5.9% for appointments scheduled within 0-7 days to 15.3% 
+ for appointments scheduled 31-60 days in advance. The 61+ day group shows an even higher
+ no-show rate (30%), though this group should be interpreted cautiously if it contains 
+ relatively few observations.
+
+7. appointment_hour: 
+ Appointment attendance varied by time slot. Evening appointments 
+ (5 PM to 9 PM) recorded the highest no-show rate at 10.22%, compared with 8.23% for
+ morning appointments and 8.15% for afternoon appointments. Although evening appointments 
+ represented a smaller share of total bookings, they exhibited a noticeably higher 
+ likelihood of no-shows.
+
+8. Employment_status: 
+ Employment status shows only minor differences in appointment attendance. 
+ No-show rates were relatively consistent across employment groups,
+ Unemployed patients recorded the highest no-show rate at 8.84%, 
+ followed by employed patients at 8.28%. Students had the lowest no-show rate at 7.89%,
+ while retired (8.20%) and self-employed (8.09%) patients exhibited similar attendance patterns.
+ Overall, no-show rates ranged from 7.89% to 8.84%, 
+ suggesting that employment status has a limited influence on no-show behavior.
+
+9. Education_level: 
+ Education level exhibits some variation in no-show behavior. 
+ Patients with an unknown education level recorded the highest no-show rate (8.67%),
+ followed by Bachelor's degree holders (8.47%) and those with secondary education (8.45%).
+ Master's degree holders had the lowest no-show rate (7.81%), while patients with primary,
+ vocational, and PhD-level education showed similar attendance patterns. 
+ Overall, no-show rates ranged from 7.81% to 8.67%, suggesting that education level may 
+ have a modest influence on appointment attendance.
+
+10. Income_level: 
+ Income level demonstrates a noticeable association with appointment attendance.
+ Patients in the Low-income group recorded the highest no-show rate at 10.65%, substantially 
+ higher than all other income categories. In contrast, Middle-income (7.17%) and 
+ Upper-Middle-income (7.23%) patients exhibited the lowest no-show rates. High-income patients 
+ also showed relatively low no-show rates (7.55%). Overall, the results suggest that lower income 
+ levels are associated with a greater likelihood of missing appointments.
+
+11. children_count: 
+ The number of children a patient has appears to have a limited impact on appointment
+ attendance. Patients with two children recorded the highest no-show rate (8.55%), while
+ patients with four children had the lowest rate (8.10%). Across all groups, no-show rates
+ remained within a narrow range of 8.10% to 8.55%, suggesting that the number of children 
+ is not a strong predictor of no-show behavior.
+
+12. patient_satisfaction_score: 
+ Ptient satisfaction demonstrated a strong inverse relationship with no-show behavior.
+ The no-show rate decreased consistently from 21.43% among patients with satisfaction 
+ scores between 0 and 1 to 4.93% among those with scores between 9 and 10. This trend 
+ suggests that higher patient satisfaction is strongly associated with improved appointment
+ attendance. The 0-1 satisfaction group contained relatively few observations and 
+ should be interpreted with caution; however, the overall downward trend remains consistent
+ across the remaining score bands.
+
+ pdf = patient_data_frame
+ pdf2= patient_data_frame2
+ cdf = clinic_data_frame
+ mdf = medical_data_frame
