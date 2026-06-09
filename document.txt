@@ -54,9 +54,8 @@ EDA - columns vs No_show
 6. waiting_days: 
  Patients with longer waiting periods tend to have higher no-show rates.
  The no-show rate rises from 5.9% for appointments scheduled within 0-7 days to 15.3% 
- for appointments scheduled 31-60 days in advance. The 61+ day group shows an even higher
- no-show rate (30%), though this group should be interpreted cautiously if it contains 
- relatively few observations.
+ for appointments scheduled 31-60 days in advance. The patients waiting more than 60 days exhibited the highest no-show rate (30.00%),
+ although this group contained a relatively smaller number of appointments (30 total records).
 
 7. appointment_hour: 
  Appointment attendance varied by time slot. Evening appointments 
