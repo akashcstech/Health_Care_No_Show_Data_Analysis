@@ -1,3 +1,5 @@
+pdf = patient_data_frame
+
 1.Age values equal to 0 were treated as invalid because records existed with age = 0 
 and adult characteristics (e.g., divorced marital status). These values were converted 
 to missing and imputed using the median age.
@@ -106,7 +108,14 @@ EDA - columns vs No_show
  should be interpreted with caution; however, the overall downward trend remains consistent
  across the remaining score bands.
 
- pdf = patient_data_frame
+ ###########################################################################################################
  pdf2= patient_data_frame2
+
+ 1. Day-of-week analysis revealed only minor variation in no-show rates. 
+ Thursday recorded the highest no-show rate (8.62%), followed by Monday (8.55%), 
+ while Saturday had the lowest no-show rate (7.90%). Overall, no-show rates ranged from 7.90% to 8.62%,
+ suggesting that the day of the week has a limited influence on appointment attendance.
+
+
  cdf = clinic_data_frame
  mdf = medical_data_frame
