@@ -111,10 +111,16 @@ EDA - columns vs No_show
  ###########################################################################################################
  pdf2= patient_data_frame2
 
- 1. Day-of-week analysis revealed only minor variation in no-show rates. 
+ 1. Day-of-week:
+ Day-of-week analysis revealed only minor variation in no-show rates. 
  Thursday recorded the highest no-show rate (8.62%), followed by Monday (8.55%), 
  while Saturday had the lowest no-show rate (7.90%). Overall, no-show rates ranged from 7.90% to 8.62%,
  suggesting that the day of the week has a limited influence on appointment attendance.
+
+ 2. Monthly analysis revealed moderate variation in no-show rates throughout the year.
+ June recorded the highest no-show rate (8.95%), followed by February (8.94%) and August (8.70%), 
+ while July had the lowest no-show rate (7.70%). Overall, no-show rates ranged from 7.70% to 8.95%, 
+ indicating that month of appointment may have a modest influence on attendance behavior.
 
 
  cdf = clinic_data_frame
