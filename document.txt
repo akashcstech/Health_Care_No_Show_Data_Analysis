@@ -129,6 +129,12 @@ EDA - columns vs No_show
  compared to those who received an SMS reminder (7.25%). This suggests that appointment reminders may play an
  important role in reducing missed appointments.
 
+ 4. reminder calls: (very strong)
+ A strong negative relationship was observed between the number of reminder calls and no-show rates. 
+ Patients who received no reminder calls had a no-show rate of 9.66%, which steadily decreased to 8.15%, 6.47%, and 5.17% for 
+ patients receiving one, two, and three reminder calls, respectively. This suggests that reminder calls may be highly effective
+ in improving appointment attendance.
+
 
  cdf = clinic_data_frame
  mdf = medical_data_frame
