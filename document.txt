@@ -1,4 +1,4 @@
-pdf = patient_data_frame
+*Data Exploration and Tranformation*
 
 1.Age values equal to 0 were treated as invalid because records existed with age = 0 
 and adult characteristics (e.g., divorced marital status). These values were converted 
@@ -15,6 +15,7 @@ retired, or having children), suggesting that some features may be synthetically
 category "Unknown" to preserve records while explicitly indicating unavailable information.
 
 -------------------------------------------------------------------------------------------
+pdf => patient_data_frame
 EDA - columns vs No_show
 1.age_no_sow: 
  Age-group analysis revealed only minor differences in no-show rates across age categories. 
@@ -109,7 +110,7 @@ EDA - columns vs No_show
  across the remaining score bands.
 
  ###########################################################################################################
- pdf2= patient_data_frame2
+ pdf2 => patient_data_frame2
 
  1. Day-of-week:
  Day-of-week analysis revealed only minor variation in no-show rates. 
@@ -117,10 +118,16 @@ EDA - columns vs No_show
  while Saturday had the lowest no-show rate (7.90%). Overall, no-show rates ranged from 7.90% to 8.62%,
  suggesting that the day of the week has a limited influence on appointment attendance.
 
- 2. Monthly analysis revealed moderate variation in no-show rates throughout the year.
+ 2. Months:
+ Monthly analysis revealed moderate variation in no-show rates throughout the year.
  June recorded the highest no-show rate (8.95%), followed by February (8.94%) and August (8.70%), 
  while July had the lowest no-show rate (7.70%). Overall, no-show rates ranged from 7.70% to 8.95%, 
  indicating that month of appointment may have a modest influence on attendance behavior.
+
+ 3. sms_message: (strong)
+ Patients who did not receive an SMS reminder exhibited a substantially higher no-show rate (10.94%) 
+ compared to those who received an SMS reminder (7.25%). This suggests that appointment reminders may play an
+ important role in reducing missed appointments.
 
 
  cdf = clinic_data_frame
