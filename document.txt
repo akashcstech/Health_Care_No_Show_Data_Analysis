@@ -136,8 +136,16 @@ EDA - columns vs No_show
  in improving appointment attendance.
 
 5. previous appointments (weak) The number of previous appointments showed minimal variation in no-show rates. 
-Patients with 0-4 previous appointments recorded a no-show rate of 8.21%, compared to 8.41% 
-among those with 8-16 previous appointments. The narrow range of no-show rates suggests that
-appointment history has little influence on attendance behavior.
+ Patients with 0-4 previous appointments recorded a no-show rate of 8.21%, compared to 8.41% 
+ among those with 8-16 previous appointments. The narrow range of no-show rates suggests that
+ appointment history has little influence on attendance behavior.
+
+6. Previous_no_shows (strong)
+ strong positive relationship was observed between previous no-show history and future no-show behavior. 
+ Patients with no prior no-shows recorded a no-show rate of 5.92%, which increased steadily as the number of
+ previous missed appointments rose, reaching 26.53% among patients with seven prior no-shows and 31.82% among 
+ those with eight or more prior no-shows. This suggests that past no-show behavior is a strong predictor of 
+ future appointment attendance
+
  cdf = clinic_data_frame
  mdf = medical_data_frame
