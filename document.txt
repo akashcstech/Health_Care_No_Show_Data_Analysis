@@ -135,6 +135,9 @@ EDA - columns vs No_show
  patients receiving one, two, and three reminder calls, respectively. This suggests that reminder calls may be highly effective
  in improving appointment attendance.
 
-
+5. previous appointments (weak) The number of previous appointments showed minimal variation in no-show rates. 
+Patients with 0-4 previous appointments recorded a no-show rate of 8.21%, compared to 8.41% 
+among those with 8-16 previous appointments. The narrow range of no-show rates suggests that
+appointment history has little influence on attendance behavior.
  cdf = clinic_data_frame
  mdf = medical_data_frame
