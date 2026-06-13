@@ -140,7 +140,7 @@ EDA - columns vs No_show
  among those with 8-16 previous appointments. The narrow range of no-show rates suggests that
  appointment history has little influence on attendance behavior.
 
-6. Previous_no_shows (strong)
+6. Previous_no_shows: (strong)
  strong positive relationship was observed between previous no-show history and future no-show behavior. 
  Patients with no prior no-shows recorded a no-show rate of 5.92%, which increased steadily as the number of
  previous missed appointments rose, reaching 26.53% among patients with seven prior no-shows and 31.82% among 
@@ -148,4 +148,9 @@ EDA - columns vs No_show
  future appointment attendance
 
  cdf = clinic_data_frame
+ 1. Distance Km:
+ Distance to the healthcare facility showed a positive relationship with no-show behavior. 
+ Patients living within 2 km recorded the lowest no-show rate (6.86%), while those traveling more
+ than 20 km had the highest rate (10.93%). Overall, no-show rates increased steadily as travel 
+ distance increased, suggesting that longer travel distances may contribute to missed appointments.
  mdf = medical_data_frame
