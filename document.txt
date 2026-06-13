@@ -161,10 +161,16 @@ methods (9.20%) and public transport users (9.00%). In contrast, patients travel
 the lowest no-show rate (7.27%), followed by taxi users (7.76%). These findings suggest that 
 transportation mode may have some influence on appointment attendance.
 
-3.Insurance type:(strong) Insurance type exhibited a noticeable association with appointment attendance. Uninsured 
+3.Insurance_type:(strong) Insurance type exhibited a noticeable association with appointment attendance. Uninsured 
 patients recorded the highest no-show rate (11.04%), substantially higher than all other insurance
 categories. In contrast, patients with private insurance had the lowest no-show rate (7.60%), 
 followed closely by those with mixed insurance coverage (7.67%). These findings suggest that 
 insurance status may be an important factor influencing no-show behavior.
+
+4. clinic_type: (weak)
+No-show rates varied modestly across clinic types, ranging from 7.25% at private hospitals to 8.60%
+at community clinics. Public hospitals (8.59%) and community clinics (8.60%) exhibited the highest 
+no-show rates, while private hospitals recorded the lowest. The relatively small differences suggest
+that clinic type has a limited to moderate influence on appointment attendance.
 
  mdf = medical_data_frame
