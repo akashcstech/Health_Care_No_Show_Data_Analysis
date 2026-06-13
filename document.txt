@@ -1,5 +1,4 @@
 *Data Exploration and Tranformation*
-
 1.Age values equal to 0 were treated as invalid because records existed with age = 0 
 and adult characteristics (e.g., divorced marital status). These values were converted 
 to missing and imputed using the median age.
@@ -15,6 +14,7 @@ retired, or having children), suggesting that some features may be synthetically
 category "Unknown" to preserve records while explicitly indicating unavailable information.
 
 -------------------------------------------------------------------------------------------
+Interpretation : 
 pdf => patient_data_frame
 EDA - columns vs No_show
 1.age_no_sow: 
