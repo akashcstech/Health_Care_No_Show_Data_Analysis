@@ -173,4 +173,10 @@ at community clinics. Public hospitals (8.59%) and community clinics (8.60%) exh
 no-show rates, while private hospitals recorded the lowest. The relatively small differences suggest
 that clinic type has a limited to moderate influence on appointment attendance.
 
+5.weather_condition: (strong)
+Weather conditions showed a strong association with appointment attendance. Patients scheduled
+during rainy conditions recorded the highest no-show rate (10.43%), followed by stormy (9.05%) 
+and snowy weather (8.65%). In contrast, sunny (7.48%) and cloudy conditions (7.31%) exhibited the
+lowest no-show rates. Overall, no-show rates increased as weather conditions became more severe, suggesting that adverse weather may contribute to missed appointments.
+
  mdf = medical_data_frame
