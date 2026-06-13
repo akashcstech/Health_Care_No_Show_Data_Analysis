@@ -186,3 +186,10 @@ relatively stable across temperature ranges, varying from 7.71% to 8.42%. The ab
 a clear trend suggests that temperature is not a strong predictor of appointment attendance.
 
  mdf = medical_data_frame
+
+ Medical conditions exhibited only a weak association with appointment attendance. 
+ Patients with disabilities recorded the highest no-show rate (9.17%), followed by those with 
+ alcoholism (8.61%) and hypertension (8.50%). Patients with diabetes (8.02%) and chronic diseases 
+ (7.78%) showed slightly lower no-show rates. Overall, the variation across medical conditions 
+ was relatively small, with a difference of only 1.39 percentage points between the highest and 
+ lowest groups, suggesting that medical conditions are not major drivers of no-show behavior.
