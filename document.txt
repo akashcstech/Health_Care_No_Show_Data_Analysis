@@ -147,10 +147,17 @@ EDA - columns vs No_show
  those with eight or more prior no-shows. This suggests that past no-show behavior is a strong predictor of 
  future appointment attendance
 
- cdf = clinic_data_frame
- 1. Distance Km:
+cdf = clinic_data_frame
+1. Distance Km:
  Distance to the healthcare facility showed a positive relationship with no-show behavior. 
  Patients living within 2 km recorded the lowest no-show rate (6.86%), while those traveling more
  than 20 km had the highest rate (10.93%). Overall, no-show rates increased steadily as travel 
  distance increased, suggesting that longer travel distances may contribute to missed appointments.
+
+2.Transportation type showed moderate variation in no-show rates. Patients who traveled by 
+walking recorded the highest no-show rate (9.68%), followed by those with unknown transportation 
+methods (9.20%) and public transport users (9.00%). In contrast, patients traveling by car exhibited 
+the lowest no-show rate (7.27%), followed by taxi users (7.76%). These findings suggest that 
+transportation mode may have some influence on appointment attendance.
+
  mdf = medical_data_frame
