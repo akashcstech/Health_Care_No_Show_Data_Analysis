@@ -140,7 +140,7 @@ EDA - columns vs No_show
  among those with 8-16 previous appointments. The narrow range of no-show rates suggests that
  appointment history has little influence on attendance behavior.
 
-6. Previous_no_shows: (strong)
+6. Previous_no_shows: (very strong)
  strong positive relationship was observed between previous no-show history and future no-show behavior. 
  Patients with no prior no-shows recorded a no-show rate of 5.92%, which increased steadily as the number of
  previous missed appointments rose, reaching 26.53% among patients with seven prior no-shows and 31.82% among 
@@ -148,16 +148,23 @@ EDA - columns vs No_show
  future appointment attendance
 
 cdf = clinic_data_frame
-1. Distance Km:
+1. Distance Km: (moderate to strong)
  Distance to the healthcare facility showed a positive relationship with no-show behavior. 
  Patients living within 2 km recorded the lowest no-show rate (6.86%), while those traveling more
  than 20 km had the highest rate (10.93%). Overall, no-show rates increased steadily as travel 
  distance increased, suggesting that longer travel distances may contribute to missed appointments.
 
-2.Transportation type showed moderate variation in no-show rates. Patients who traveled by 
+2.Transportation type: (moderate)
+Transportation type showed moderate variation in no-show rates. Patients who traveled by 
 walking recorded the highest no-show rate (9.68%), followed by those with unknown transportation 
 methods (9.20%) and public transport users (9.00%). In contrast, patients traveling by car exhibited 
 the lowest no-show rate (7.27%), followed by taxi users (7.76%). These findings suggest that 
 transportation mode may have some influence on appointment attendance.
+
+3.Insurance type:(strong) Insurance type exhibited a noticeable association with appointment attendance. Uninsured 
+patients recorded the highest no-show rate (11.04%), substantially higher than all other insurance
+categories. In contrast, patients with private insurance had the lowest no-show rate (7.60%), 
+followed closely by those with mixed insurance coverage (7.67%). These findings suggest that 
+insurance status may be an important factor influencing no-show behavior.
 
  mdf = medical_data_frame
