@@ -14,7 +14,7 @@ retired, or having children), suggesting that some features may be synthetically
 category "Unknown" to preserve records while explicitly indicating unavailable information.
 
 -------------------------------------------------------------------------------------------
-Interpretation : 
+Interpretation : Visualization
 pdf => patient_data_frame
 EDA - columns vs No_show
 1.age_no_sow: 
