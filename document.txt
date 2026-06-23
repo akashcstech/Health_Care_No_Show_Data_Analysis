@@ -199,6 +199,15 @@ Emergency appointments recorded the lowest no-show rate (4.87%), substantially l
 In contrast, therapy appointments exhibited the highest no-show rate (9.02%), followed by diagnostic tests (8.90%) and routine
 checkups (8.78%). The 4.15 percentage point difference between the highest and 
 lowest categories suggests that appointment type is an important factor influencing patient attendance.
+---
+The pattern also makes business sense:
 
-doctor_specialty: 
+Emergency appointments have the lowest no-show rate because patients usually need immediate care.
+Follow-up appointments are also relatively important, leading to better attendance.
+Therapy, Diagnostic Tests, and Routine Checkups are more likely to be postponed or skipped.
+----
 
+doctor_specialty: Doctor specialty showed a limited association with appointment attendance. No-show rates ranged 
+from 7.63% in Endocrinology to 8.70% in General Practice. Cardiology (8.65%) also exhibited relatively high no-show rates,
+while Neurology (7.65%), Pediatrics (7.86%), and Dermatology (7.90%) recorded lower rates. Overall, the variation across
+specialties was modest, suggesting that doctor specialty is not a major factor influencing no-show behavior.
