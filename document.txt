@@ -194,7 +194,11 @@ a clear trend suggests that temperature is not a strong predictor of appointment
  was relatively small, with a difference of only 1.39 percentage points between the highest and 
  lowest groups, suggesting that medical conditions are not major drivers of no-show behavior.
 
-appointment_type: 
+appointment_type: Appointment type demonstrated a strong relationship with no-show behavior. 
+Emergency appointments recorded the lowest no-show rate (4.87%), substantially lower than all other appointment categories. 
+In contrast, therapy appointments exhibited the highest no-show rate (9.02%), followed by diagnostic tests (8.90%) and routine
+checkups (8.78%). The 4.15 percentage point difference between the highest and 
+lowest categories suggests that appointment type is an important factor influencing patient attendance.
 
 doctor_specialty: 
 
