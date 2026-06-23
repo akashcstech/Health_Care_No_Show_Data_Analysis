@@ -197,3 +197,9 @@ a clear trend suggests that temperature is not a strong predictor of appointment
 appointment_type: 
 
 doctor_specialty: 
+
+Interpretation: Transportation type showed moderate variation in no-show rates. Patients who traveled by 
+walking recorded the highest no-show rate (9.68%), followed by those with unknown transportation 
+methods (9.20%) and public transport users (9.00%). In contrast, patients traveling by car exhibited 
+the lowest no-show rate (7.27%), followed by taxi users (7.76%). These findings suggest that 
+transportation mode may have some influence on appointment attendance
