@@ -234,12 +234,12 @@ Check out quick dashboard - https://github.com/akashcstech/Health_Care_No_Show_D
 
 
 # 🗃️ Files Review
-Business Problem Statment - https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/Business%20Problem%20Statement.pdf
-EDA - Notebook - https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/Data_clean_and_EDA.ipynb
-Analysis Report - https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/Health_Care_No_Show_Data_Analysis-Report.pdf
-Dashborad - https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/Healthcare_No_show_Anlysis_Dashboard.pbix
-PPT - https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/Health-Care-No-Show-Analysis.pptx
-PPT in pdf - https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/Health-Care-No-Show-Analysis.pdf
+- Business Problem Statment - https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/Business%20Problem%20Statement.pdf
+- EDA - Notebook - https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/Data_clean_and_EDA.ipynb
+- Analysis Report - https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/Health_Care_No_Show_Data_Analysis-Report.pdf
+- Dashborad - https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/Healthcare_No_show_Anlysis_Dashboard.pbix
+- PPT - https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/Health-Care-No-Show-Analysis.pptx
+- PPT in pdf - https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/Health-Care-No-Show-Analysis.pdf
 
 
 # 🚀 Future Improvements
