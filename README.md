@@ -214,10 +214,7 @@ The strongest factors associated with no-show behavior include:
 
 Include screenshots such as:
 
-- Executive Summary
-- Power BI Dashboard
-- EDA Visualizations
-- Presentation Slides
+![Project Workflow](https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/imgs/Patient%20Analysis%201.png)
 
 ---
 
