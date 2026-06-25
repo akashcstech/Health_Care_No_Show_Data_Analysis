@@ -212,10 +212,12 @@ The strongest factors associated with no-show behavior include:
 
 > Screenshots are available in the **imgs/** folder.
 
-Include screenshots such as:
+Include Dashboard screenshots such as:
 
 ![Project Workflow](https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/imgs/Patient%20Analysis%201.png)
-
+![Project Workflow](https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/imgs/Patient%20Analysis%202.png)
+![Project Workflow](https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/imgs/Clinic%20Analysis.png)
+![Project Workflow](https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/imgs/Medical%20Analysis.png)
 ---
 
 # 📌 Dataset
