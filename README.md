@@ -74,25 +74,7 @@ Health_Care_No_Show_Data_Analysis
 # 📊 Project Workflow
 
 ```
-Dataset
-      │
-      ▼
-Data Cleaning
-      │
-      ▼
-Exploratory Data Analysis
-      │
-      ▼
-Visualization
-      │
-      ▼
-Business Insights
-      │
-      ▼
-Power BI Dashboard
-      │
-      ▼
-Presentation & Report
+![Project Workflow](https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/imgs/work_flow.png)
 ```
 
 ---
