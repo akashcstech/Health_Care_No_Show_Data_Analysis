@@ -73,9 +73,8 @@ Health_Care_No_Show_Data_Analysis
 
 # 📊 Project Workflow
 
-```
 ![Project Workflow](https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/imgs/work_flow.png)
-```
+
 
 ---
 
