@@ -229,6 +229,9 @@ No real patient information is included.
 
 ---
 
+# 📽️ Video Review
+![Project Workflow](https://github.com/akashcstech/Health_Care_No_Show_Data_Analysis/blob/main/Video/Analysis_Recording.mp4)
+
 # 🚀 Future Improvements
 
 - Statistical significance testing
