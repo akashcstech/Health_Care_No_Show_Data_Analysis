@@ -223,6 +223,7 @@ Include Dashboard screenshots such as:
 # 📌 Dataset
 
 This project uses a **synthetic healthcare appointment dataset** created for educational purposes.
+ - Data Import - Kaggle Sample Dataset https://www.kaggle.com/datasets/emirhanakku/synthetic-healthcare-appointment-no-show-dataset
 
 No real patient information is included.
 
@@ -247,3 +248,16 @@ No real patient information is included.
 ---
 
 ⭐ If you found this project useful, consider giving it a star!
+## 📜 License
+
+MIT — feel free to fork, star, and use in your portfolio.
+
+## 👨‍💻 About the Author
+Hey, I’m Akash S, a Data Analyst & Professional .
+I break down complex data topics into simple business insights to enhance business understanding insights for decision-making.
+
+💼 LinkedIn: [Akash S](www.linkedin.com/in/akash-s-999305390)
+- Let’s connect professionally and grow your data career
+
+
+## 💡 Thanks for checking out the project! Your support means a lot! Feel free to star ⭐ this repo or share it with someone learning Data Analytics.🚀
