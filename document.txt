@@ -1,4 +1,4 @@
-*Data Exploration and Tranformation*
+*Data Exploration and Transformation*
 1.Age values equal to 0 were treated as invalid because records existed with age = 0 
 and adult characteristics (e.g., divorced marital status). These values were converted 
 to missing and imputed using the median age.
@@ -52,7 +52,7 @@ EDA - columns vs No_show
  by days 1 (9.38%) and 12 (9.21%). In contrast, day 21 had the lowest no-show rate (6.90%), 
  followed by days 6 (6.97%) and 17 (7.08%). The variation of approximately 2.5 percentage
  points suggests that the day of the month may have a moderate influence on appointment
- attendance..
+ attendance.
 
 6. waiting_days: 
  Patients with longer waiting periods tend to have higher no-show rates.
